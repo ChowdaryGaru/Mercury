@@ -21,3 +21,22 @@ git status
 git commit -m "first commit"
 git push -u origin master
 sudo apt-get install subversion apache2 apache2-utils libapache2-svn
+git status
+git rebase .bash_history
+git commit -m "first commit"
+git commit -m .bash_history "first commit"
+git commit -m .bash_history "first comm"
+git commit -a -m "initil commit"
+git push origin master
+git clone https://github.com/ChowdaryGaru/Mercury.git
+ls
+rm Mercury/
+rm -R Mercury/
+git clone https://github.com/ChowdaryGaru/Mercury.git
+git add README.md 
+git status
+git add .bash_history .bashrc .gitconfig .profile .ssh/
+git status
+git commit -a -m "fist file"
+git push -u origin master
+exit
